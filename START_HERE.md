@@ -8,21 +8,22 @@
 
 ## 📊 إحصائيات سريعة
 
-| العنصر | القيمة |
-|-------|--------|
-| المشروع | jpu_academybot_admin |
-| النوع | Flutter App |
-| الملفات المرفوعة | 150+ ملف آمن |
-| الملفات المحمية | ✅ جميع الملفات الحساسة |
-| Commits | 3 commits جاهزة |
-| الفرع | main |
-| الحالة | ✅ جاهز للرفع على GitHub |
+| العنصر           | القيمة                   |
+| ---------------- | ------------------------ |
+| المشروع          | jpu_academybot_admin     |
+| النوع            | Flutter App              |
+| الملفات المرفوعة | 150+ ملف آمن             |
+| الملفات المحمية  | ✅ جميع الملفات الحساسة  |
+| Commits          | 3 commits جاهزة          |
+| الفرع            | main                     |
+| الحالة           | ✅ جاهز للرفع على GitHub |
 
 ---
 
 ## ✅ ما تم إنجازه
 
 ### 1️⃣ تهيئة Git (اكتمل ✅)
+
 ```bash
 ✓ git init
 ✓ git config user
@@ -30,6 +31,7 @@
 ```
 
 ### 2️⃣ حماية الملفات الحساسة (اكتمل ✅)
+
 ```bash
 ✓ Updated .gitignore
 ✓ Deleted firebase.json
@@ -40,6 +42,7 @@
 ```
 
 ### 3️⃣ إضافة الملفات الآمنة (اكتمل ✅)
+
 ```bash
 ✓ 150+ files added
 ✓ All Flutter code included
@@ -48,6 +51,7 @@
 ```
 
 ### 4️⃣ Commits الجاهزة (اكتمل ✅)
+
 ```
 ✓ Commit 1: Initial commit (148 files)
 ✓ Commit 2: Add project files
@@ -55,6 +59,7 @@
 ```
 
 ### 5️⃣ وثائق الإعداد (اكتمل ✅)
+
 ```
 ✓ GITHUB_READY_TO_PUSH.md
 ✓ GITHUB_FINAL_STEPS.md
@@ -83,6 +88,7 @@
 ### ✋ الخطوة 2: انسخ الرابط من GitHub
 
 بعد الإنشاء، ستحصل على رابط مثل:
+
 ```
 https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ```
@@ -104,22 +110,28 @@ git push -u origin main
 ## 📋 التعليمات التفصيلية
 
 ### الأمر الأول:
+
 ```bash
 cd "d:\Aya\Project 2\jpu_academybot_admin"
 ```
-*يفتح مجلد المشروع*
+
+_يفتح مجلد المشروع_
 
 ### الأمر الثاني:
+
 ```bash
 git remote add origin https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ```
-*يربط المشروع المحلي مع GitHub*
+
+_يربط المشروع المحلي مع GitHub_
 
 ### الأمر الثالث:
+
 ```bash
 git push -u origin main
 ```
-*يرفع جميع الـ commits إلى GitHub*
+
+_يرفع جميع الـ commits إلى GitHub_
 
 ---
 
@@ -155,13 +167,13 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 ## 🔐 الملفات المحمية (الآمنة) ✅
 
-| النوع | الملفات |
-|------|--------|
-| **Firebase** | firebase.json, google-services.json |
-| **Environment** | .env, .env.local, .env.production |
-| **Local Config** | android/local.properties, ios/Pods |
-| **Generated** | pubspec.lock, .dart_tool, build |
-| **IDE** | .vscode/launch.json, .idea/runConfigurations |
+| النوع            | الملفات                                      |
+| ---------------- | -------------------------------------------- |
+| **Firebase**     | firebase.json, google-services.json          |
+| **Environment**  | .env, .env.local, .env.production            |
+| **Local Config** | android/local.properties, ios/Pods           |
+| **Generated**    | pubspec.lock, .dart_tool, build              |
+| **IDE**          | .vscode/launch.json, .idea/runConfigurations |
 
 ---
 
@@ -188,12 +200,14 @@ Remote: Not set yet (سيتم في الخطوة 2)
 ## ⚠️ نقاط مهمة
 
 ### ✅ افعل:
+
 - ✅ استخدم رابط GitHub الصحيح
 - ✅ تأكد من الاتصال بالإنترنت
 - ✅ انتظر حتى ينتهي الأمر `git push`
 - ✅ تفحص المشروع على GitHub بعد الانتهاء
 
 ### ❌ لا تفعل:
+
 - ❌ لا تحذف .gitignore
 - ❌ لا تضيف firebase.json يدويًا
 - ❌ لا تنسَ رابط GitHub
@@ -204,16 +218,19 @@ Remote: Not set yet (سيتم في الخطوة 2)
 ## 🆘 في حالة الخطأ
 
 ### خطأ: "fatal: remote origin already exists"
+
 ```bash
 git remote remove origin
 git remote add origin https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ```
 
 ### خطأ: "Permission denied"
+
 - تأكد من بيانات GitHub الصحيحة
 - قد تحتاج 2FA authentication
 
 ### خطأ: "Connection refused"
+
 - تحقق من الإنترنت
 - تحقق من صحة الرابط
 
@@ -298,4 +315,4 @@ https://github.com/new
 
 **استمتع برفع مشروعك على GitHub! 🎊**
 
-*آخر تحديث: 17 يونيو 2026*
+_آخر تحديث: 17 يونيو 2026_
