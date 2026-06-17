@@ -15,6 +15,7 @@
 ## 🎯 الخطوات المتبقية (3 خطوات فقط!)
 
 ### الخطوة 1️⃣: أنشئ Repository على GitHub
+
 ```
 URL: https://github.com/new
 الاسم: jpu_academybot_admin
@@ -24,7 +25,9 @@ URL: https://github.com/new
 ```
 
 ### الخطوة 2️⃣: نسخ الرابط من GitHub
+
 بعد الإنشاء، ستحصل على رابط مثل:
+
 ```
 https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ```
@@ -42,16 +45,19 @@ git push -u origin main
 ## 💡 الخطوات بالتفصيل
 
 ### 1. في PowerShell - ادخل المجلد:
+
 ```bash
 cd "d:\Aya\Project 2\jpu_academybot_admin"
 ```
 
 ### 2. أضف رابط GitHub:
+
 ```bash
 git remote add origin https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ```
 
 ### 3. اضغط الكود:
+
 ```bash
 git push -u origin main
 ```
@@ -72,13 +78,13 @@ Status: جاهز للرفع
 
 ## ✨ الملفات المحمية (الآمنة)
 
-| الملف | الحالة |
-|------|-------|
-| firebase.json | ❌ لم يرفع (محمي) |
-| .env | ❌ لم يرفع (محمي) |
-| android/local.properties | ❌ لم يرفع (محمي) |
+| الملف                            | الحالة            |
+| -------------------------------- | ----------------- |
+| firebase.json                    | ❌ لم يرفع (محمي) |
+| .env                             | ❌ لم يرفع (محمي) |
+| android/local.properties         | ❌ لم يرفع (محمي) |
 | lib/models/firebase_options.dart | ❌ لم يرفع (محمي) |
-| pubspec.lock | ❌ لم يرفع (محمي) |
+| pubspec.lock                     | ❌ لم يرفع (محمي) |
 
 ---
 
@@ -99,16 +105,19 @@ git status
 ## ⚠️ إذا حصل خطأ
 
 ### خطأ: "fatal: remote origin already exists"
+
 ```bash
 git remote remove origin
 git remote add origin https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ```
 
 ### خطأ: "Permission denied"
+
 - قد تحتاج SSH أو HTTPS authentication
 - تحقق من GitHub access token
 
 ### خطأ: "Connection refused"
+
 - تأكد من الاتصال بالإنترنت
 - تحقق من صحة الرابط
 
@@ -117,6 +126,7 @@ git remote add origin https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ## 🚀 بعد الرفع الناجح
 
 ستحصل على رسالة مثل:
+
 ```
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```

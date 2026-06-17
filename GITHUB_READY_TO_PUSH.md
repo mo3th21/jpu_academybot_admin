@@ -2,21 +2,22 @@
 
 ## 📊 ملخص ما تم إنجازه
 
-| المرحلة | الحالة | التفاصيل |
-|--------|-------|---------|
-| ✅ تهيئة Git | اكتمل | تم `git init` وتكوين المستخدم |
-| ✅ تحديث .gitignore | اكتمل | تم إضافة جميع الملفات الحساسة |
-| ✅ حذف الملفات الحساسة | اكتمل | firebase.json, .env, local.properties |
-| ✅ إضافة الملفات | اكتمل | 148 ملف آمن تم إضافتهم |
-| ✅ أول Commit | اكتمل | `de6966e` - Initial commit |
-| ✅ تغيير الفرع | اكتمل | تم التغيير من `master` إلى `main` |
-| ⏳ الخطوة التالية | انتظر | ربط مع GitHub وفي الرفع |
+| المرحلة                | الحالة | التفاصيل                              |
+| ---------------------- | ------ | ------------------------------------- |
+| ✅ تهيئة Git           | اكتمل  | تم `git init` وتكوين المستخدم         |
+| ✅ تحديث .gitignore    | اكتمل  | تم إضافة جميع الملفات الحساسة         |
+| ✅ حذف الملفات الحساسة | اكتمل  | firebase.json, .env, local.properties |
+| ✅ إضافة الملفات       | اكتمل  | 148 ملف آمن تم إضافتهم                |
+| ✅ أول Commit          | اكتمل  | `de6966e` - Initial commit            |
+| ✅ تغيير الفرع         | اكتمل  | تم التغيير من `master` إلى `main`     |
+| ⏳ الخطوة التالية      | انتظر  | ربط مع GitHub وفي الرفع               |
 
 ---
 
 ## 🔐 الملفات المحمية
 
 تم إضافة الملفات التالية إلى `.gitignore`:
+
 - ✅ `firebase.json` - إعدادات Firebase
 - ✅ `.env` و `.env.local` - متغيرات البيئة
 - ✅ `android/local.properties` - إعدادات Android المحلية
@@ -32,7 +33,7 @@
 
 اتبع هذه الخطوات **الآن**:
 
-1. اذهب إلى: https://github.com/new
+1. اذهب إلى: <https://github.com/new>
 2. أملأ البيانات:
    - **Repository name**: `jpu_academybot_admin`
    - **Description**: `Flutter admin app for managing JPU Academy news, academic content, and administration`
@@ -40,7 +41,8 @@
    - **Initialize repository**: ✅ **لا تختاره** (لدينا repository محلي بالفعل)
 3. انقر **Create repository**
 
-### 2️⃣ بعد إنشاء Repository، ستحصل على رابط مثل:
+### 2️⃣ بعد إنشاء Repository، ستحصل على رابط مثل
+
 ```
 https://github.com/YOUR_USERNAME/jpu_academybot_admin.git
 ```
@@ -59,7 +61,7 @@ git push -u origin main
 
 ## 📋 التعليمات التفصيلية للرفع
 
-### للمرة الأولى:
+### للمرة الأولى
 
 ```bash
 # 1. تأكد أنك في مجلد المشروع
@@ -79,13 +81,15 @@ git push -u origin main
 
 ## 🔐 معلومات الأمان المهمة
 
-### حالة الملفات الحساسة:
+### حالة الملفات الحساسة
+
 - ✅ لم تتم إضافة أي ملفات حساسة إلى git
 - ✅ جميع مفاتيح Firebase آمنة
 - ✅ متغيرات البيئة محمية
 - ✅ لا توجد credentials في الـ code
 
-### بعد الرفع على GitHub:
+### بعد الرفع على GitHub
+
 1. فعّل **Secret Scanning** في إعدادات Repository
 2. فعّل **Push Protection** لمنع رفع Secrets بالخطأ
 3. أضف **Branch Protection** للـ `main` branch
@@ -111,6 +115,7 @@ Status: جاهز للرفع على GitHub
    - [ ] استبدلت `YOUR_USERNAME` بـ اسم المستخدم الفعلي
 
 2. **إذا نسيت البيانات الشخصية للـ git**:
+
    ```bash
    git config user.name "Your Actual Name"
    git config user.email "your.email@domain.com"
@@ -138,6 +143,7 @@ Status: جاهز للرفع على GitHub
 ## 📞 الدعم
 
 إذا واجهت مشاكل:
+
 - تحقق من [GitHub Docs - Pushing code](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository)
 - تأكد من [GitHub SSH/HTTPS setup](https://docs.github.com/en/authentication)
 
@@ -146,6 +152,7 @@ Status: جاهز للرفع على GitHub
 **🎉 التهيئة اكتملت بنجاح!**
 
 **الآن:**
+
 1. اذهب إلى GitHub وأنشئ Repository جديد
 2. انسخ الرابط
 3. شغّل أمر `git push -u origin main` مع الرابط
